@@ -110,8 +110,7 @@ export function AttendeeList() {
         <input onChange={handleSearch} value={search} className="bg-transparent flex-1 outline-none h-auto border-0 p-0 text-sm focus:ring-0" placeholder="Buscar participante" type="text" />
         </div>
       </div>
-      {search}
-
+      
       <Table >
         <thead >
           <tr className="border-b border-white/10">
